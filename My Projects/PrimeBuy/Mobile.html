@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <title>Mobile Section Design</title>
+
+
+   <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: red;
+    }
+
+    #mobile-section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .mobile-item {
+      display: flex;
+      align-items: center;
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .mobile-item img {
+      width: 100px;
+      height: auto;
+      margin-right: 20px;
+    }
+
+    .mobile-item-info {
+      flex: 1;
+    }
+
+    .mobile-item h3 {
+      margin: 0;
+    }
+
+    .mobile-item p {
+      color: #666;
+    }
+
+    .view-details-btn {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    .view-details-btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="mobile-section">
+    <div class="mobile-item">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRafOyApDE2Hpsp2icQoPadJggw4OrtPM3UViCGzdVFT60VzJyO&s"
+        alt="Mobile 1">
+      <div class="mobile-item-info">
+        <h3>IPhone</h3>
+            
+       
+       
+
+        <div class="detail-item">
+          <label>Resolution:</label>
+          <span>1170 x 2532 pixels</span>
+        </div>
+        <div class="detail-item">
+          <label>Processor:</label>
+          <span>Hexa-core (2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard)</span>
+        </div>
+        <div class="detail-item">
+          <label>RAM:</label>
+          <span>4GB</span>
+        </div>
+        <div class="detail-item">
+          <label>Storage:</label>
+          <span>128GB / 256GB / 512GB (options may vary)</span>
+        </div>
+        <div class="detail-item">
+          <label>Main Camera:</label>
+          <span>Dual camera setup - 12 MP (wide), 12 MP (ultrawide)</span>
+        </div>
+        <div class="detail-item">
+          <label>Front Camera:</label>
+          <span>12 MP (wide)</span>
+        </div       
+       
+
+
+        
+        <button class="view-details-btn" onclick="showDetails('Mobile 1')">View Details</button>
+      </div>
+    </div>
+
+
+
+    <div class="mobile-item">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfdUbfrZWEd4RQiHddlkmEfxUdT1P2TPinXejz-57x9pjle9Be&s"
+        alt="Mobile 2">
+      <div class="mobile-item-info">
+        <h3>Redmi 9  </h3>
+    
+        <div class="detail-item">
+          <label>Main Camera:</label>
+          <span>Quad camera setup - 48 MP (wide), 8 MP (ultrawide), 2 MP (macro), 2 MP (depth)</span>
+        </div>
+        <div class="detail-item">
+          <label>Front Camera:</label>
+          <span>13 MP (wide)</span>
+        </div>
+        <div class="detail-item">
+          <label>Battery:</label>
+          <span>5000 mAh</span>
+        </div>
+        <div class="detail-item">
+          <label>Operating System:</label>
+          <span>Android 10 with MIUI 12</span>
+        </div>
+        <div class="detail-item">
+          <label>Color Options:</label>
+          <span>Carbon Gray, Sunset Purple, Ocean Green, Ocean Blue</span>
+        </div>
+    
+        <button class="view-details-btn" onclick="showDetails('Mobile 2')">View Details</button>
+      </div>
+    </div>
+
+
+
+
+    <!-- Add more mobile devices as needed -->
+    <div class="mobile-item">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL83kIAuvwNohRJriJw4_PhLMPrQb_eTowJOWRwcZOYsu49muK&s"
+        alt="Mobile 2">
+      <div class="mobile-item-info">
+        <h3>Oppo</h3>
+     
+        <div class="detail-item">
+          <label>Processor:</label>
+          <span>Octa-core (2x2.3 GHz Cortex-A75 & 6x2.0 GHz Cortex-A55)</span>
+        </div>
+        <div class="detail-item">
+          <label>RAM:</label>
+          <span>8GB / 12GB (options may vary)</span>
+        </div>
+        <div class="detail-item">
+          <label>Storage:</label>
+          <span>128GB / 256GB (options may vary)</span>
+        </div>
+        <div class="detail-item">
+          <label>Main Camera:</label>
+          <span>Quad camera setup - 64 MP (wide), 8 MP (ultrawide), 2 MP (macro), 2 MP (depth)</span>
+        </div>
+          
+   
+   
+   
+   
+   
+        <button class="view-details-btn" onclick="showDetails('Mobile 2')">View Details</button>
+      </div>
+    </div>
+
+
+
+    <div class="mobile-item">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwaeYMAzXYL7AwIQO9-40ApCsUdbdczS9omwafkpmbneFSG-f1&s"
+        alt="Mobile 2">
+      <div class="mobile-item-info">
+        <h3>Redmi-12</h3>
+      
+      
+        <div class="detail-item">
+          <label>Main Camera:</label>
+          <span>Triple camera setup - 48 MP (wide), 8 MP (ultrawide), 2 MP (depth)</span>
+        </div>
+        <div class="detail-item">
+          <label>Front Camera:</label>
+          <span>16 MP (wide)</span>
+        </div>
+        <div class="detail-item">
+          <label>Battery:</label>
+          <span>5000 mAh</span>
+        </div>
+        <div class="detail-item">
+          <label>Operating System:</label>
+          <span>Android 12 with MIUI 13</span>
+    
+        <button class="view-details-btn" onclick="showDetails('Mobile 2')">View Details</button>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+  <script>
+    function showDetails(deviceName) {
+      alert(`View details for ${deviceName}`);
+    }
+  </script>
+</body>
+
+</html>
